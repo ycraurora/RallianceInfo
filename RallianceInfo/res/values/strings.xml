@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RA Info</string>
+    <string name="text_teaminfo">Team Info</string>
+    <string name="text_rominfo">Rom Info</string>
+    <string name="text_news">News</string>
+    <string name="image_text_slider" />
+    <string name="image_text_banner" />
+
+</resources>

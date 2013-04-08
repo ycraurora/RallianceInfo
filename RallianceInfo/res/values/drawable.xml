@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="text_color">#000000</drawable>
+    <drawable name="backgroud_color">#ffffff</drawable>
+    
+</resources>

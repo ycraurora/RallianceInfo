@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">关于R&amp;A</string>
+    <string name="text_teaminfo">团队信息</string>
+    <string name="text_rominfo">ROM信息</string>
+    <string name="text_news">新鲜事</string>
+</resources>

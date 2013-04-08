@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud_color" >
+    
+    <RelativeLayout android:id="@+id/relaLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/ic_tab_background" >
+
+        	<TextView
+            	android:id="@+id/text_team"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:layout_weight="1.0"
+            	android:gravity="center"
+            	android:textSize="@dimen/tab_size"
+            	android:textColor="@drawable/text_color"
+            	android:text="@string/text_teaminfo" />
+
+        	<TextView
+            	android:id="@+id/text_rom"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:layout_weight="1.0"
+            	android:gravity="center"
+            	android:textSize="@dimen/tab_size"
+            	android:textColor="@drawable/text_color"
+            	android:text="@string/text_rominfo" />
+
+        	<TextView
+            	android:id="@+id/text_news"
+            	android:layout_width="fill_parent"
+            	android:layout_height="fill_parent"
+            	android:layout_weight="1.0"
+            	android:gravity="center"
+            	android:textSize="@dimen/tab_size"
+            	android:textColor="@drawable/text_color"
+            	android:text="@string/text_news" />
+        	
+    	</LinearLayout>
+    	
+    	<ImageView
+        	android:id="@+id/cursor"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:scaleType="matrix"
+        	android:layout_below="@id/linearLayout1"
+        	android:contentDescription="@string/image_text_slider"
+        	android:src="@drawable/ic_slider" />
+    	
+    </RelativeLayout>    
+    
+    
+    <ImageView android:id="@+id/ic_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_banner"
+        android:background="@drawable/backgroud_color"
+        android:contentDescription="@string/image_text_banner" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:background="#000000"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>
